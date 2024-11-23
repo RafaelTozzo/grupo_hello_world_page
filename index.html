@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game - Python</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('snake_img.jpg') no-repeat center bottom fixed;
+            background-size: cover;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        header h2 {
+            font-size: 1.5rem;
+            font-style: italic;
+            color: #ffcc00;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        .description {
+            max-width: 700px;
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .description p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .file-list {
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #000;
+            background-color: #ffcc00;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .download-button:hover {
+            background-color: #ffaa00;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Snake Game - Python</h1>
+        <h2>Grupo - Hello World</h2>
+    </header>
+    <div class="description">
+        <p>
+            Bem-vindo ao <strong>Snake Game - Python</strong>, um jogo clássico! Nele, você controla uma cobrinha que
+            deve comer a comida que aparece na tela para crescer. O objetivo é marcar a maior pontuação possível sem
+            colidir com as paredes ou com o próprio corpo da cobrinha.
+        </p>
+        <p>
+            Desenvolvido pelo <strong>Grupo - Hello World</strong>,
+            este jogo é ideal para testar suas habilidades e competir por pontuações
+            altas. Baixe agora e divirta-se!
+        </p>
+    </div>
+    <div class="file-list">
+        Arquivos incluídos no download:
+        <br>
+        snake_game_v1.0.0 / manual.pdf
+    </div>
+    <a href="snake_game_v1.0.0" download class="download-button">Baixar Jogo</a>
+</body>
+
+</html>
